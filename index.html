@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a
+          href="https://www.linkedin.com/in/volodymyr-pasichnyak"
+          target="_blank"
+        >
+          <img src="Images/Profile.jpg" class="profile" />
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li class="link"><a href="#">Home</a></li>
+        <li id="link1" class="link"><a href="#">Projects</a></li>
+        <li id="link2" class="link"><a href="#">Hobbies</a></li>
+        <li id="link3" class="link"><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header class="container">
+      <div class="home">
+        <h4>Welcome to my Website.</h4>
+        <h1>Hi, I'm <span>Volodymyr</span>, a Web Developer!</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo soluta
+          quaerat quasi ipsam natus laboriosam maiores doloribus, earum quod
+          dicta quae ullam fugit sed praesentium recusandae, reiciendis
+          aspernatur optio labore?
+        </p>
+      </div>
+
+      <div class="image">
+        <img src="Images/Background.jpg" />
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <section id="projects" class="content">
+        <h1 class="section-title">Projects</h1>
+        <div class="card">
+          <h4>N/A</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugit
+            dignissimos inventore molestiae odio, deserunt dicta voluptatibus
+            modi. Earum cumque vero hic nihil. Maxime assumenda laboriosam
+            dolore doloremque, amet quis?
+          </p>
+        </div>
+        <div class="card">
+          <h4>N/A</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            autem porro quae, amet voluptatem atque, vero blanditiis quidem
+            ducimus quam voluptatum repudiandae vitae deleniti veritatis,
+            adipisci quod totam. Explicabo, recusandae?
+          </p>
+        </div>
+        <div class="card">
+          <h4>N/A</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+            voluptatibus natus distinctio accusamus nemo vitae dolorem, nobis
+            quia cum temporibus, at magni autem iure fuga modi itaque quo
+            aliquid aliquam!
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <div class="content-wrapper">
+      <section id="hobbies" class="content">
+        <h1 class="section-title">Hobbies</h1>
+        <div class="gallery">
+          <div class="galley-item">
+            <img src="Images/Steam.svg.png" />
+            <p class="glow-text">Gaming</p>
+          </div>
+          <div class="galley-item">
+            <img src="Images/Dev Icon.png" />
+            <p class="glow-text">Coding</p>
+          </div>
+          <div class="galley-item">
+            <img src="Images/Sleeping.png" />
+            <p class="glow-text">Sleeping</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="content-wrapper">
+      <section id="contact" class="survey-form">
+        <h1 class="section-title">Contact Me</h1>
+        <form
+          action=""
+          method="POST"
+          class="centered-form"
+          enctype="multipart/form-data"
+        >
+          <div class="input-box">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required />
+          </div>
+
+          <div class="input-box">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required />
+          </div>
+
+          <div class="input-box">
+            <label for="emailAddress">Email Address</label>
+            <input
+              type="email"
+              name="emailAddress"
+              id="emailAddress"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              type="tel"
+              name="phoneNumber"
+              id="phoneNumber"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            />
+          </div>
+
+          <div class="message">
+            <label for="messageArea">Message</label>
+            <textarea
+              name="messageArea"
+              id="messageArea"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              spellcheck="true"
+            ></textarea>
+          </div>
+
+          <div class="btn">
+            <button type="submit" class="sub-btn">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <div class="btn">
+        <a href="#">
+          <button class="top-btn" type="submit">
+            <i class="ri-arrow-up-line"></i>To the Top!
+          </button>
+        </a>
+      </div>
+
+      <div class="socials">
+        <a href=""><i class="ri-youtube-line"></i></a>
+        <a href=""><i class="ri-instagram-line"></i></a>
+        <a href=""><i class="ri-twitter-line"></i></a>
+      </div>
+      <div class="copyright">
+        Copyright Ⓒ 2025 Volodymyr Pasichnyak. All Rights Reserved.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
